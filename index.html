@@ -159,7 +159,7 @@ footer small{display:block;font-family:var(--sans);font-size:10px;letter-spacing
 <button id="music" aria-label="Musiqa">
   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
 </button>
-<audio id="audio" loop preload="none"></audio>
+<audio id="audio" loop preload="auto"></audio>
 
 <main class="wrap">
   <!-- ============ HERO ============ -->
@@ -301,7 +301,7 @@ const CONFIG = {
   mapUrl: "https://yandex.uz/maps/?text=" + encodeURIComponent("O'zbegim to'yxonasi Dehqonobod Guliston"),
   quote: "Samandarjon va Zuhraxonlarning nikoh to'ylari munosabati bilan tashkil etilayotgan Qiz bazmiga sizni mamnuniyat bilan taklif qilamiz",
   photo: "",                              // masalan: "rasm.jpg" (shu papkaga qo'ying). Bo'sh bo'lsa, bosh harflar chiqadi
-  music: "",                              // masalan: "musiqa.mp3". Bo'sh bo'lsa, musiqa tugmasi chiqmaydi
+  music: "musiqa.m4a",                    // bo'sh bo'lsa, musiqa tugmasi chiqmaydi
   cardNumber: "9860 2601 0134 7789",      // bo'sh bo'lsa, to'yona bo'limi yashiriladi
   cardOwner: "Jabborova Zuhra",
   showRsvp: true,
